@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import { ExampleComponent } from 'react-spinner-component'
-import 'react-spinner-component/dist/index.css'
+import LoadingSpinnerComponent from 'react-spinner-component/dist/index';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return(
+    <LoadingSpinnerComponent type={ 'Gear' } colors={ 'purple' } size={ '150px' } />
+  );
+};
 
-export default App
+export default App;
