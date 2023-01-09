@@ -7,13 +7,13 @@
 ## Install
 
 ```
-npm install react-spinner-component
+npm install react-spinners-components
 ```
 
 or 
 
 ```
-yarn add react-spinner-component
+yarn add react-spinners-components
 ```
 
 ## Usage
