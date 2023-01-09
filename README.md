@@ -2,7 +2,7 @@
 
 > Basic loading spinners for React.
 
-[![NPM](https://img.shields.io/npm/v/react-spinner-component.svg)](https://www.npmjs.com/package/react-spinner-component) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/react-spinners-components.svg)](https://www.npmjs.com/package/react-spinners-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
@@ -290,6 +290,12 @@ export default Example;
 ## Author
 
 [@kazimkazam](https://github.com/kazimkazam)
+
+## Repository
+
+[@Github](https://github.com/kazimkazam/react-spinners-components)
+
+[@npm](https://www.npmjs.com/package/react-spinners-components)
 
 ## License
 

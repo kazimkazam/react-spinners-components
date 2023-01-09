@@ -1,16 +1,23 @@
 {
   "name": "react-spinners-components",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Basic loading spinner for React",
   "author": "kazimkazam",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/kazimkazam/react-spinners-components",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
   "engines": {
     "node": ">=10"
   },
+  "keywords": [
+    "react",
+    "react-component",
+    "component",
+    "loading",
+    "spinner"
+  ],
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
