@@ -1,6 +1,6 @@
 # react-spinners-components
 
-> Basic loading spinners for React.
+> Very easy to use loading spinners for React.
 
 [![NPM](https://img.shields.io/npm/v/react-spinners-components.svg)](https://www.npmjs.com/package/react-spinners-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -22,8 +22,9 @@ There is a total of 15 types of loading spinners: Ball, Blocks, Cube, Discuss, D
 Please capitalize the first letter when inserting the type prop, e.g., Ball ---> 'Ball'.
 
 Please notice the following:
-- When the component accepts only one color ---> prop is called color;
-- When the component needs more than one color ---> prop is called colors;
+- When the component accepts only one color ---> prop is called color and accepts a single string, e.g., 'red' or '#f91a10';
+- When the component needs more than one color ---> prop is called colors and accepts an array with the colors that it needs (check the examples to know how many colors each type needs);
+- The size prop needs a string, and you should use px, e.g., '150px'.
 
 ### Examples
 
