@@ -1,10 +1,10 @@
 import React from 'react';
 
-import LoadingSpinnerComponent from 'react-spinner-component/dist/index';
+import LoadingSpinnerComponent from 'react-spinners-components/dist/index';
 
 const App = () => {
   return(
-    <LoadingSpinnerComponent type={ 'Gear' } colors={ 'purple' } size={ '150px' } />
+    <LoadingSpinnerComponent />
   );
 };
 

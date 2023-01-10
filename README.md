@@ -24,7 +24,10 @@ Please capitalize the first letter when inserting the type prop, e.g., Ball --->
 Please notice the following:
 - When the component accepts only one color ---> prop is called color and accepts a single string, e.g., 'red' or '#f91a10';
 - When the component needs more than one color ---> prop is called colors and accepts an array with the colors that it needs (check the examples to know how many colors each type needs);
-- The size prop needs a string, and you should use px, e.g., '150px'.
+- The size prop needs a string, and you should use px, e.g., '150px';
+
+#### If no props are given
+- None of the props are required. If no props are given, the react-spinners-components will return the LoadingSpinnerComponent with the 'Ball' type, default colors and size.
 
 ### Examples
 

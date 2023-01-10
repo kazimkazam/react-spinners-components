@@ -16,14 +16,6 @@ import { SpinnerComponent } from './Components/SpinnerComponent';
 import { WedgesComponent } from './Components/WedgesComponent';
 
 const LoadingSpinnerComponent = (props) => {
-    if (props.type === 'Ball') {
-        return(
-            <div>
-                <BallComponent color={ props.color } size={ props.size } />
-            </div>
-        );
-    };
-
     if (props.type === 'Blocks') {
         return(
             <div>
@@ -138,27 +130,7 @@ const LoadingSpinnerComponent = (props) => {
 
     return(
         <div>
-            <p>Please insert a valid type!</p>
-            <p>Valid types are:</p>
-            <ul>
-                <li>Ball</li>
-                <li>Blocks</li>
-                <li>Cube</li>
-                <li>Discuss</li>
-                <li>Disk</li>
-                <li>DualBall</li>
-                <li>Eater</li>
-                <li>Gear</li>
-                <li>Infinity</li>
-                <li>Interwind</li>
-                <li>Pulse</li>
-                <li>Ripple</li>
-                <li>Rolling</li>
-                <li>Spinner</li>
-                <li>Wedges</li>
-            </ul>
-
-            <p>You can also not give a type and the Loading Spinner will render by default the Ball loading spinner.</p>
+            <BallComponent color={ props.color } size={ props.size } />
         </div>
     );
 };
