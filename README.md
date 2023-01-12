@@ -31,7 +31,9 @@ Please notice the following:
 - The size prop needs a string, and you should use px, e.g., '150px';
 
 #### If no props are given
-- None of the props are required. If no props are given, the react-spinners-components will return the LoadingSpinnerComponent with the 'Ball' type, default colors and size.
+- None of the props are required. If no props are given, the react-spinners-components will return the LoadingSpinnerComponent with the 'Ball' type, default color and size.
+
+- If props color(s) and / or size are not given, default values will be used for the missing props.
 
 ### Examples
 
@@ -131,7 +133,7 @@ const Example = () => {
 export default Example;
 ```
 
-'DualBall' can actually work like a 'ThreeBall' by using 3 different colors, example below:
+'DualBall' can actually work like a 'TriBall' by using 3 different colors, example below:
 
 ```jsx
 
