@@ -1,6 +1,6 @@
 {
   "name": "react-spinners-components",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "Basic loading spinner for React",
   "author": "kazimkazam",
   "license": "MIT",
@@ -19,6 +19,7 @@
     "loading",
     "spinner"
   ],
+  "types": "dist/types.d.ts",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
