@@ -35,9 +35,9 @@ Please notice the following:
 
 - If props color(s) and / or size are not given, default values will be used for the missing props.
 
-### Examples
+## Examples
 
-> Loading spinner type 'Ball'
+### Loading spinner type 'Ball'
 
 ```jsx
 
@@ -53,7 +53,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Blocks'
+### Loading spinner type 'Blocks'
 
 ```jsx
 
@@ -69,7 +69,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Cube'
+### Loading spinner type 'Cube'
 
 ```jsx
 
@@ -85,7 +85,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Discuss'
+### Loading spinner type 'Discuss'
 
 ```jsx
 
@@ -101,7 +101,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Disk'
+### Loading spinner type 'Disk'
 
 ```jsx
 
@@ -117,7 +117,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'DualBall'
+### Loading spinner type 'DualBall'
 
 ```jsx
 
@@ -133,7 +133,7 @@ const Example = () => {
 export default Example;
 ```
 
-'DualBall' can actually work like a 'TriBall' by using 3 different colors, example below:
+> Note: 'DualBall' can actually work like a 'TriBall' by using 3 different colors, example below:
 
 ```jsx
 
@@ -149,7 +149,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Eater'
+### Loading spinner type 'Eater'
 
 ```jsx
 
@@ -165,7 +165,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Gear'
+### Loading spinner type 'Gear'
 
 ```jsx
 
@@ -181,7 +181,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Infinity'
+### Loading spinner type 'Infinity'
 
 ```jsx
 
@@ -197,7 +197,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Interwind'
+### Loading spinner type 'Interwind'
 
 ```jsx
 
@@ -213,7 +213,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Pulse'
+### Loading spinner type 'Pulse'
 
 ```jsx
 
@@ -229,7 +229,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Ripple'
+### Loading spinner type 'Ripple'
 
 ```jsx
 
@@ -245,7 +245,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Rolling'
+### Loading spinner type 'Rolling'
 
 ```jsx
 
@@ -261,7 +261,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Spinner'
+### Loading spinner type 'Spinner'
 
 ```jsx
 
@@ -277,7 +277,7 @@ const Example = () => {
 export default Example;
 ```
 
-> Loading spinner type 'Wedges'
+### Loading spinner type 'Wedges'
 
 ```jsx
 
